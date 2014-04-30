@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Angular Simple Format</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../bower_components/mocha/mocha.css" />
+
+    <script src="../bower_components/angular/angular.js" type="text/javascript"></script>
+    <script src="../bower_components/mocha/mocha.js"></script>
+    <script src="../bower_components/chai/chai.js"></script>
+
+    <script>
+      mocha.setup('bdd');
+      chai.config.includeStack = true;
+      chai.config.showDiff = false;
+      expect = chai.expect;
+    </script>
+
+    <script src="../lib/angular_simple_format.js"></script>
+    <script src="angular_simple_format_test.js"></script>
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
