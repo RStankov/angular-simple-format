@@ -1,7 +1,7 @@
 Angular Simple Format
 =====================
 
-Angular directive for applying simple html formatting to text.
+Angular filter for applying simple html formatting to text.
 
 Formatting applied:
 
