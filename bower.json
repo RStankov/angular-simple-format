@@ -15,10 +15,13 @@
     "br"
   ],
   "license": "MIT",
+  "dependencies": {
+    "angular": "*",
+    "angular-sanitize": "*"
+  },
   "devDependencies": {
     "chai": "1.9.1",
-    "mocha": "1.18.2",
-    "angular": ">=1.2.0"
+    "mocha": "1.18.2"
   }
 }
 
