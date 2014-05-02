@@ -17,4 +17,11 @@ describe('Angular Simple Format', function() {
   it ("return string as it is if not formatting is needed", function () {
     expect(simpleFormat('string')).to.eq('string');
   });
+
+  it ("return string as it even other data types are provided", function () {
+    expect(simpleFormat(null)).to.eq('');
+    expect(simpleFormat(false)).to.eq('');
+    expect(simpleFormat(undefined)).to.eq('');
+    expect(simpleFormat(1)).to.eq('1');
+  });
 });
