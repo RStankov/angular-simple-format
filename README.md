@@ -6,6 +6,8 @@ Angular filter for applying simple html formatting to text.
 Formatting applied:
 
 * Appending linebreak (<br />) after newline(\n).
+* Converts urls to link tags
+* Escapes html tags
 
 ### Requirements
 
