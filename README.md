@@ -12,7 +12,8 @@ Formatting applied:
 ### Requirements
 
 ```
-Angular.js
+angular.js
+angular-sanitize.js
 ```
 
 ### Running the tests
