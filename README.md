@@ -5,7 +5,7 @@ Angular filter for applying simple html formatting to text.
 
 Formatting applied:
 
-* Appending linebreak (<br />) after newline(\n).
+* Appending linebreak (&lt;br&gt;) after newline(\n).
 * Converts urls to link tags
 * Escapes html tags
 
