@@ -1,18 +1,20 @@
 {
   "name": "angular-simple-format",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "homepage": "https://github.com/RStankov/angular-simple-format",
   "authors": [
     "Radoslav Stankov <rstankov@gmail.com>"
   ],
-  "description": "Angular filter for applying simple html formatting to text. Like appending linebreak (<br />) after newline(\n).",
+  "description": "Angular filter for applying simple html formatting to text.",
   "main": "lib/angular_simple_format.js",
   "keywords": [
     "angular",
     "formatting",
     "new line",
     "line break",
-    "br"
+    "br",
+    "linky",
+    "html escape"
   ],
   "license": "MIT",
   "dependencies": {
@@ -22,6 +24,12 @@
   "devDependencies": {
     "chai": "1.9.1",
     "mocha": "1.18.2"
-  }
+  },
+  "ignore": [
+    "tests",
+    "bower.json",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ]
 }
-
