@@ -9,6 +9,18 @@ Formatting applied:
 * Converts urls to link tags
 * Escapes html tags
 
+### Example usage
+
+```javascript
+app.controller('showPostCtrl', function($scope){
+  $scope.text = "example:\n line 1\n line 2\n line 3\n http://example.com"
+});
+```
+
+```html
+<p ng-bind-html='text|simpleFormat'>
+```
+
 ### Requirements
 
 ```
