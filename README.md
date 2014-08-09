@@ -28,6 +28,14 @@ angular.js
 angular-sanitize.js
 ```
 
+### Installation
+
+Include [lib/angular_simple_format.js](https://github.com/RStankov/angular-simple-format/blob/master/lib/angular_simple_format.js) into your page and then list `simpleFormat` as your module dependency.
+
+```js
+window.app = angular.module('YourApp', ['simpleFormat'])
+```
+
 ### Running the tests
 
 Install bower developer dependencies - ```bower install```.
